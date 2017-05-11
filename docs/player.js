@@ -1,3 +1,23 @@
+function abs(value){
+  let result = value;
+  if(result < 0){
+    result = result * -1;
+  }
+  return result;
+}
+
+
+function distance(a,b)
+{
+return abs(a-b);
+}
+
+
+
+
+
+
+
 const GU = 0;
 const CHOKI = 1;
 const PA = 2;
